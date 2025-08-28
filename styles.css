@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif;
+  background-color: bisque;
+  color: black;
+}
+header {
+  position: fixed;
+  width: 100%;
+  padding-bottom: 0;
+  height: 50px;
+}
+#cuerpo {
+  padding-top: 85px;
+  
+}
+
+/** cosas de tabla **/
+table {
+  border-collapse: separate;
+   line-height: 1.7;
+  background-color: brown;
+  min-width: 400px;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 80%
+    }
+  th {
+ background-color: brown; 
+ font-size: 15px;  
+  }
+tr {
+  border-top: solid, black, 1px;
+}
+td {
+  background-color: beige;
+  margin: auto;
+  text-align: center;
+  font-size: 10px;
+  }
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-weight: 500;
+  }
+  p {
+    font-size: 10px;
+    padding-left: 20px;
+  }
+  button {
+  border: solid, 1px, bisque;
+  }
+  button:hover {
+    background-color: beige;
+    border: solid, 1px, beige;
+  }
