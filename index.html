@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Cheat Sheet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="tittle">
+        <h1>Tabla Ayudamemoria</h1>
+        <p>
+          <button><a href="#tabla1">TABLAS</a></button>
+        </p>
+      </div>
+    </header>
+    <div id="cuerpo">
+      <div id="titulo1">
+        <h3>Tag para Tablas "HTML"</h3>
+        <table id="tabla1">
+          <thead>
+            <tr>
+              <th>TAG</th>
+              <th>NOMBRE</th>
+              <th>DESCRIPCIÓN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="fila1">
+              <td>&lt;table&gt;</td>
+              <td>tabla</td>
+              <td>el tag madre de las tablas</td>
+            </tr>
+            <tr id="fila2">
+              <td>&lt;thead&gt;</td>
+              <td>cabezera</td>
+              <td>estas son las columans de la tabla</td>
+            </tr>
+            <tr id="fila3">
+              <td>&lt;tbody&gt;</td>
+              <td>cuerpo de la tabla</td>
+              <td>aqui iran una a una las filas</td>
+            </tr>
+            <tr id="fila4">
+              <td>&lt;tr&gt;</td>
+              <td>fila de tabla</td>
+              <td>se ingresan los datos de izq. a dere.</td>
+            </tr>
+            <tr id="fila5">
+              <td>&lt;th&gt;</td>
+              <td>nombre de columna</td>
+              <td>este se ocupa dentro de &lt;thead&gt;</td>
+            </tr>
+            <tr id="fila6">
+              <td>&lt;td&gt;</td>
+              <td>datos</td>
+              <td>la info de cada celda</td>
+            </tr>
+            <tr id="fila7">
+              <td>&lt;tfoot&gt;</td>
+              <td>el footer</td>
+              <td>ultima fila de la tabla</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td colspan="3">esto es un footer con un &lt;colspan&gt; de 3</td>
+          </tfoot>
+        </table>
+      </div>
+      <div id="titulo2">
+        <h3>Atributos</h3>
+        <table id="tabla2">
+          <thead>
+            <tr>
+              <th>ATRIBUTO</th>
+              <th>NOMBRE</th>
+              <th>DESCRIPCIÓN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="fila1B">
+              <td>&lt;rowspan&gt;</td>
+              <td>unir filas</td>
+              <td>sirve para colapsar datos de celdas</td>
+            </tr>
+            <tr id="fila2B">
+              <td>&lt;colspan&gt;</td>
+              <td>unir columnas</td>
+              <td>sirve para colapsar datos de celda</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
